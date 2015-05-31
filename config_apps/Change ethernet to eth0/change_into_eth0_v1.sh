@@ -27,9 +27,9 @@
 # AS ALLWAYS, KNOW WHAT YOU ARE DOING.
 #======================================================================================
 
-    # open your currently terminal application gnome-terminal
-sudo pacman -R gnome-terminal
-sudo su
-cd /usr/bin
-mv gnome-terminal gnome-terminal-backup
-ln -s /usr/bin/terminator/terminator gnome-terminal
+# changing enp2s0 or so to eth0
+# all conkies online uses this
+# as well as the aurora conky at sourceforge
+# http://sourceforge.net/projects/auroraconkytheme/
+
+sudo touch /etc/udev/rules.d/80-net-setup-link.rules

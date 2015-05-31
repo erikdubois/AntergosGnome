@@ -27,9 +27,15 @@
 # AS ALLWAYS, KNOW WHAT YOU ARE DOING.
 #======================================================================================
 
-    # open your currently terminal application gnome-terminal
+# open your currently terminal application gnome-terminal
+# http://askubuntu.com/questions/76712/setting-nautilus-open-terminal-to-launch-terminator-rather-than-gnome-terminal
+
+# hardcoded in lib - now handled in GIO
+
+# for the moment using nautilus actions
+
 sudo pacman -R gnome-terminal
-sudo su
-cd /usr/bin
-mv gnome-terminal gnome-terminal-backup
-ln -s /usr/bin/terminator/terminator gnome-terminal
+sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
+sudo pacman -S nautilus-actions
+# import schema in same folder to have the open in terminator
+

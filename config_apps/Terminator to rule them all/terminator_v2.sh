@@ -29,7 +29,7 @@
 
     # open your currently terminal application gnome-terminal
 sudo pacman -R gnome-terminal
-sudo su
-cd /usr/bin
-mv gnome-terminal gnome-terminal-backup
-ln -s /usr/bin/terminator/terminator gnome-terminal
+sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
+sudo pacman -S dconf-editor
+gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
+gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
