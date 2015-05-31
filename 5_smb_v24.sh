@@ -58,7 +58,8 @@ sudo pacman -S gvfs-afp
 
 # red hat samba sharing config 
 packer system-config-samba
-system-config-samba
+
+echo "Run system-config-samba to set up shares"
 
 
 echo "########################################"
