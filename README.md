@@ -21,6 +21,9 @@ http://build.antergos.com/browse/testing
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/achgnome1.jpg)
 
 
+On the far left you see the conky "Aurora" hosted on Sourceforge.
+http://sourceforge.net/projects/auroraconkytheme/
+
 
 
 # A R C H L I N U X   and  A N T E R G O S
