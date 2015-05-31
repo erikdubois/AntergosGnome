@@ -18,7 +18,7 @@ http://build.antergos.com/browse/testing
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/2015-04-18-112226_3360x1050_scrot.png)
+![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/achgnome1.jpg)
 
 
 
@@ -73,7 +73,7 @@ The idea is to download (if you have internet connection) the i3 github files :
 	sudo pacman -S git
 	git clone https://github.com/erikdubois/AntergosGnome
 
-This folder that you will download will give you all the installation scripts necessary to fully install gnome.
+This folder that you will download will give you all the installation scripts necessary to fully install the desktop.
 Change, delete and append whatever you want.
 
 I decided to split the logical entities in seperate files. Better to debug and better for users to understand.
@@ -107,7 +107,7 @@ In the script you will see a text to know which one you need to choose.
     For example
 
     echo "################################################################"
-    echo "sane"
+    echo "spotify"
     echo "################################################################"
 
 When that is done you run
