@@ -1,6 +1,6 @@
 # AntergosGnome
 
-Antergos with the latest gnome edition
+Antergos with the latest gnome edition.
 
 
 This is my configuration for Gnome to be used on the Antergos distribution.
@@ -21,12 +21,13 @@ http://build.antergos.com/browse/testing
 ![Screenshots](http://erikdubois.be/wp-content/uploads/2015/05/achgnome1.jpg)
 
 
-On the far left you see the conky "Aurora" hosted on Sourceforge.
+On the far right you see the conky "Aurora" hosted on Sourceforge.
+
 http://sourceforge.net/projects/auroraconkytheme/
 
 
 
-# A R C H L I N U X   and  A N T E R G O S
+# A N T E R G O S and  A R C H L I N U X
 -------------------------------------------------
 
 I started using Archlinux as a learning experience. I have tried installing all kinds of desktop environments (DE) and formatted many times my ssd's to start from scratch. Then I started exploring other distro's based on Archlinux. After a while it was more practical to have a script of some kind to record the knowledge and to automate the things I had already learned. They became repetitive in nature.
@@ -37,7 +38,7 @@ That's why I have written a script to do just that.
 
 #1. Installation of the ANTERGOS system
 
-Download the iso and burn it on a cd or use a usb.
+Download the iso and burn it on a cd or use an usb.
 
 USB
 
@@ -53,12 +54,12 @@ Cdrom
 
 	use brasero, xfburn or others
 
-During this installation you will have to choose which graphical environment to choose. 
+During this installation you will have to choose your desktop environment (DE). 
 
 At the time of writing you can choose
 
 	- base installation (no DE)
-	- gnome
+	- GNOME
 	- kde
 	- cinnamon
 	- mate
@@ -69,7 +70,7 @@ This page is about installing GNOME.
 
 #2. Installation via script
 
-I run an installation script to quickly  get all my software after the installation of Antergos. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. 
+I run an installation script to quickly  get all my software after the installation of Antergos. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. You will probably see this in my selection of software.
 
 The idea is to download (if you have internet connection) the i3 github files :
 
@@ -77,9 +78,10 @@ The idea is to download (if you have internet connection) the i3 github files :
 	git clone https://github.com/erikdubois/AntergosGnome
 
 This folder that you will download will give you all the installation scripts necessary to fully install the desktop.
+
 Change, delete and append whatever you want.
 
-I decided to split the logical entities in seperate files. Better to debug and better for users to understand.
+I decided to split the logical entities in seperate files or logical entities. Better to debug and better for users to understand.
 
 The scripts have been numbered from 1 to 6. Follow the orderering to install all programs.
 
