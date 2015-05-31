@@ -134,6 +134,11 @@ The zsh script is an alternative for "bash" more colourfull (>100 themes) and mo
 The smb script is to install samba or the way to share folders and files between computers if you need it.
 
 
+# Themes and icons
+
+All theming for both archlinux and ubuntu based systems are hosted here : 
+
+https://github.com/erikdubois/themes-icons-pack
 
 
 <h2>Give it a go because <b> A N T E R G O S </b> deserves to be more known.</h2>
