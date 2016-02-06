@@ -53,6 +53,9 @@ sudo pacman -S variety
 
 ######## F I L E  M A N A G E R #########
 
+# context menu right click open with can be done with nautilus actions
+# subl3 %f
+
 sudo pacman -S nautilus-actions nautilus-open-terminal
 
 
