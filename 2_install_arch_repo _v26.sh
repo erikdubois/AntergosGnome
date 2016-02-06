@@ -50,6 +50,12 @@ sudo pacman -S variety
 
 ######## E D U C A T I O N     #########
 
+
+######## F I L E  M A N A G E R #########
+
+sudo pacman -S nautilus-actions nautilus-open-terminal
+
+
 ######## G A M E S             #########
 
 ######## G R A P H I C S       #########

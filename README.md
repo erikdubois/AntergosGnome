@@ -1,5 +1,8 @@
 # AntergosGnome
 
+Versie : 27
+Date   : 06/02/2016
+
 Antergos with the latest gnome edition.
 
 
