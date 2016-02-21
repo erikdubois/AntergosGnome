@@ -30,6 +30,10 @@
 
 # making sure terminator is the normal gnome terminal
 
+# no longer works
+#gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
+#gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
 
-gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
-gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
+# getting rid of gnome-terminal
+sudo pacman -R gnome-terminal
+sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
