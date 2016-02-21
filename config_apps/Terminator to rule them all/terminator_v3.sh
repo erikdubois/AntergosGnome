@@ -38,4 +38,6 @@ sudo pacman -R gnome-terminal
 sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
 sudo pacman -S nautilus-actions
 # import schema in same folder to have the open in terminator
+# or make it yourself
 
+# nautilus-actions-config-tool can be used to make terminator standard
