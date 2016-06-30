@@ -18,16 +18,57 @@
 # .smmmmddddddddhhhhhhhhhdddddddddmmmms. 
 #   `+ydmmmdddddddddddddddddddmmmmdy/.     
 #      `.:+ooyyddddddddddddyyso+:.`
-#======================================================================================
-#                              G N O M E
+#
+##################################################################################################################
+#
+# Current project : AntergosGnome
+#
+# Source 	: 	https://github.com/erikdubois/AntergosGnome
+#
+##################################################################################################################
+#
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+# Website 	: 	http://www.erikdubois.be
+#
+##################################################################################################################
 # 
-# Author  : Erik Dubois at http://www.erikdubois.be
-# License : Distributed under the terms of GNU GPL version 2 or later
+#
+# More from Erik Dubois
+#
+# Aurora Conky
+# at http://sourceforge.net/projects/auroraconkytheme/
+# Explanation on the use of this theme can be found at 
+# http://erikdubois.be/category/linux/aurora-conky/
 # 
-# AS ALLWAYS, KNOW WHAT YOU ARE DOING.
-#======================================================================================
-
-
+# Aureola Conky
+# Collections of nice conky's with lua syntax
+# https://github.com/erikdubois/Aureola
+#
+# Sardi icons
+# Many different styles of icons from colourfull, monochrome, white, circle
+# https://sourceforge.net/projects/sardi/
+#
+# Super Ultra Flat Numix Remix
+# Colourfull and playfull icons
+# https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+#
+# Check out the github - many more scripts for automatic installation of Linux Systems.
+#
+#
+#
+##################################################################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#
+##################################################################################################################
+#
+#
+##################################################################################################################
+# If the option -S has been added. It will autoinstall all. Omit if you do not want that.
+##################################################################################################################
+#
+#
 ########################################
 ########    A P P S  R E P O    ########
 ########################################
