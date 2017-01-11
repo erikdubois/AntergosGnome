@@ -13,7 +13,6 @@ Let us first take a screenshot of the initial look of Antergos Gnome
 	pacaur -Syu
 	yaourt -Syu
 
-![Screenshots](http://i.imgur.com/aqkwT0i.png)
 
 ##Software installation
 
