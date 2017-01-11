@@ -11,13 +11,21 @@
 #
 ##################################################################################################################
 
+#https://github.com/horst3180/arc-theme
 
-sudo pacman -S --noconfirm nautilus-actions nautilus-open-terminal
+rm -rf /tmp/arc-theme
 
+sudo pacman -S autoconf automake pkg-config inkscape optipng --noconfirm
+git clone https://github.com/horst3180/arc-theme --depth 1 /tmp/arc-theme
+cd /tmp/arc-theme
+sh autogen.sh --prefix=/usr
+sudo make install
 
-###############################################################################################
+rm -rf /tmp/arc-theme
+
+# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+
 
 echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "###################    arc theme installed #####################"
 echo "################################################################"
-

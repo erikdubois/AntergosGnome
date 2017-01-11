@@ -12,12 +12,21 @@
 ##################################################################################################################
 
 
-sudo pacman -S --noconfirm nautilus-actions nautilus-open-terminal
 
 
-###############################################################################################
+rm -rf /tmp/Sardi-Extra
+git clone https://github.com/erikdubois/Sardi-Extra /tmp/Sardi-Extra
+find /tmp/Sardi-Extra -maxdepth 1 -type f -exec rm -rf '{}' \;
+
+# if there is no hidden folder then make one
+[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
+
+cp -r /tmp/Sardi-Extra/* ~/.icons/
+rm -rf /tmp/Sardi-Extra
+
+
+
 
 echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "###################    icons sardi extra done  #################"
 echo "################################################################"
-

@@ -12,12 +12,20 @@
 ##################################################################################################################
 
 
-sudo pacman -S --noconfirm nautilus-actions nautilus-open-terminal
+        # S P E E D T E S T #
+
+# terminal speedtest
+wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py -O /tmp/speedtest.py
+chmod +x /tmp/speedtest.py
+python /tmp/speedtest.py --share
+# https://github.com/sivel/speedtest-cli
 
 
-###############################################################################################
+
+##################################################################################################################
 
 echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "###################    Speedtest          ######################"
 echo "################################################################"
+
 

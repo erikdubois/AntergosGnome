@@ -12,12 +12,34 @@
 ##################################################################################################################
 
 
-sudo pacman -S --noconfirm nautilus-actions nautilus-open-terminal
+program="breeze-snow-cursor-theme"
 
 
-###############################################################################################
+if which pacaur > /dev/null; then
+
+	echo "Installing with pacaur"
+	pacaur -S --noconfirm --noedit  $program
+
+elif which packer > /dev/null; then
+
+	echo "Installing with packer"
+	packer -S --noconfirm --noedit  $program 	
+
+elif which yaourt > /dev/null; then
+
+	echo "Installing with yaourt"
+	yaourt -S --noconfirm --noedit  $program
+		  	
+fi
+
+
+
+
+
+##################################################################################################################
 
 echo "################################################################"
-echo "#########   distro specific software installed  ################"
+echo "########  breeze snow cursor installed    ######################"
 echo "################################################################"
+
 
