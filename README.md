@@ -18,7 +18,7 @@ Let us first take a screenshot of the initial look of Antergos Gnome
 
 We start the installation scripts of all the needed software via the terminal.
  
-	0-install-aur-helper-v1.sh
+	0-install-aur-helper-vx.sh
 	1-install-core-software-vx.sh
    	2-install-extra-software-vx.sh
 	3-install-themes-icons-cursors-conky-plank-vx.sh
