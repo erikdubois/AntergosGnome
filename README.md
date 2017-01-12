@@ -168,9 +168,7 @@ I like the breeze cursors.
 ##Install the plank and download 100+ themes
 
 
-Plank is installed through this script
-
-	1-install-core-software-vx.sh
+Plank is installed via the main scripts.
 
 If you want to install 100+ plank themes, you need to run this script : 
 
