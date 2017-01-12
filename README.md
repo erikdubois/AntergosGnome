@@ -21,7 +21,7 @@ We start the installation scripts of all the needed software via the terminal.
 	0-install-aur-helper-v1.sh
 	1-install-core-software-vx.sh
    	2-install-extra-software-vx.sh
-    	3-install-themes-icons-cursors-conky-plank-vx.sh
+	3-install-themes-icons-cursors-conky-plank-vx.sh
 	4-install-software-distro-specific-vx.sh
 	5-install-samba-vx.sh
 
