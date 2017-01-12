@@ -14,7 +14,7 @@
 #software from 'normal' repositories
 sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 catfish clementine curl darktable dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode evolution filezilla geary gimp git glances gparted gpick grsync
-sudo pacman -S --noconfirm --needed hardinfo hexchat hddtemp htop inkscape inxi lm_sensors mlocate
+sudo pacman -S --noconfirm --needed hardinfo hexchat hddtemp htop inkscape inxi lm_sensors meld mlocate
 sudo pacman -S --noconfirm --needed numlockx openshot pinta plank sane screenfetch scrot shotwell 
 sudo pacman -S --noconfirm --needed shutter simplescan simplescreenrecorder sysstat 
 sudo pacman -S --noconfirm --needed terminator thunar variety vlc vnstat wget unclutter  

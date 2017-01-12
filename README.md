@@ -4,9 +4,7 @@ Let us first take a screenshot of the initial look of this distro.
 
 ![Screenshots](http://i.imgur.com/vyZO7pC.png)
 
-
 ##Update your system.
-
 
 **Pamac** will alert you or use commands like
 	
@@ -17,7 +15,6 @@ Let us first take a screenshot of the initial look of this distro.
 
 
 ##Software installation
-
 
 We start the installation scripts of all the needed software via the terminal.
  
@@ -46,13 +43,10 @@ Some of the applications that will be installed are
 
 There are other scripts for more applications. If needed, you can install them individually.
 
-
 ##Change the theme
-
 
 Sometimes you can change the present theme to its dark equivalent. This is the case in Gnome. 
 In the gnome-tweak-tool you can change this.
-
 
 ##Install Arc Theme
 
@@ -63,9 +57,7 @@ I install the **original blue** Arc theme but also my personally created Arc the
 
 	install-gtk-arc-theme-vx.sh
 
-
 ##Install your individual Arc Theme
-
 
 You can change the blue accent colour from the Arc theme with these scripts to **any colour** you like : 
 
@@ -75,7 +67,6 @@ More info about Arc Colora : https://github.com/erikdubois/Arc-Theme-Colora
 
 
 ##Download the Sardi icons
-
 
 You can install the sardi icons via these scripts
 
@@ -108,7 +99,6 @@ More documentation on http://erikdubois.be/category/sardi-icons/
 
 
 ##Download the Sardi-extra icons
-
 
 There is also a collection of **Sardi Extra** icons at 
 
