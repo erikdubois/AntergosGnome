@@ -209,7 +209,7 @@ copy/paste this command in your terminal.
 # Youtube Resources
 
 
-None
+https://www.youtube.com/playlist?list=PLlloYVGq5pS5DGx2EHIZxOGVTf9JikalO
 
 
 
