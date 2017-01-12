@@ -12,7 +12,8 @@
 ##################################################################################################################
 
 
-sudo pacman -S --noconfirm nautilus-actions nautilus-open-terminal
+sudo pacman -S --noconfirm --needed nautilus-actions 
+#sudo pacman -S --noconfirm --needed nautilus-open-terminal
 
 
 ###############################################################################################

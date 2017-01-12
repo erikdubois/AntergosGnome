@@ -11,28 +11,50 @@
 #
 ##################################################################################################################
 
-#software from 'normal' repositories
-sudo pacman -S --noconfirm --needed arc-gtk-theme archey3 catfish clementine curl darktable dconf-editor
-sudo pacman -S --noconfirm --needed dmidecode evolution filezilla geary gimp git glances gparted gpick grsync
-sudo pacman -S --noconfirm --needed hardinfo hexchat hddtemp htop inkscape inxi lm_sensors mlocate
-sudo pacman -S --noconfirm --needed numlockx openshot pinta plank sane screenfetch scrot shotwell 
-sudo pacman -S --noconfirm --needed shutter simplescan simplescreenrecorder sysstat 
-sudo pacman -S --noconfirm --needed terminator thunar variety vlc vnstat wget unclutter  
+# Conky Aureola
 
+sh conky-aureola-v2.sh
 
 ###############################################################################################
 
-# installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
+# Sardi-extra icons
+
+sh icons-sardi-extra-v2.sh
 
 ###############################################################################################
 
+# Sardi icons
 
-numlockx on
-sudo systemctl enable vnstat
-sudo systemctl start vnstat
+sh icons-sardi-v2.sh
+
+###############################################################################################
+
+# Surfn icons
+
+sh icons-surfn-v2.sh
+
+###############################################################################################
+
+# Arc theme
+
+sh install-gtk-arc-theme-v1.sh
+
+#############################################################################################
+
+# Plank themes
+
+sh plank-themes-v2.sh
+
+###############################################################################################
+
+# Cursor theme
+
+sh install-breeze-cursor-theme-v1.sh
+
+
+
 
 echo "################################################################"
-echo "###################    core software installed  ################"
+echo "#############       eye candy software         #################"
 echo "################################################################"
 

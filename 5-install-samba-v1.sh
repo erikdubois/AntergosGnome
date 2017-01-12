@@ -11,21 +11,29 @@
 #
 ##################################################################################################################
 
-#https://github.com/horst3180/arc-theme
 
-rm -rf /tmp/arc-theme
+sudo pacman -S --noconfirm --needed samba
+sudo cp  /etc/samba/smb.conf.default /etc/samba/smb.conf
+sudo systemctl enable smbd.service
+sudo systemctl start smbd.service
+sudo systemctl enable nmbd.service
+sudo systemctl start nmbd.service
+sudo smbpasswd -a erik
 
-sudo pacman -S--needed --noconfirm autoconf automake pkg-config inkscape optipng
-git clone https://github.com/horst3180/arc-theme --depth 1 /tmp/arc-theme
-cd /tmp/arc-theme
-sh autogen.sh --prefix=/usr
-sudo make install
+#access samba share windows
+sudo pacman -S --noconfirm --needed gvfs-smb
 
-rm -rf /tmp/arc-theme
 
-# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+# sudo systemctl restart ... if you run into trouble
+# testparm will check the conf file for errors
+
+# red hat samba sharing config 
+packer --noconfirm --noedit system-config-samba
+
+echo "Run system-config-samba to set up shares"
 
 
 echo "################################################################"
-echo "###################    arc theme installed #####################"
+echo "#########   samba  software installed           ################"
 echo "################################################################"
+

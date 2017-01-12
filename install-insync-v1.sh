@@ -12,24 +12,24 @@
 ##################################################################################################################
 
 
-program="gnome-terminal-transparency"
-command="gnome-terminal"
+program="insync"
+command="insync"
 
 
 if which pacaur > /dev/null; then
 
 	echo "Installing with pacaur"
-	pacaur -S --noedit  $program
+	pacaur -S --noconfirm --noedit  $program
 
 elif which packer > /dev/null; then
 
 	echo "Installing with packer"
-	packer -S --noedit  $program 	
+	packer -S --noconfirm --noedit  $program 	
 
 elif which yaourt > /dev/null; then
 
 	echo "Installing with yaourt"
-	yaourt -S $program
+	yaourt -S --noconfirm $program
 		  	
 fi
 
