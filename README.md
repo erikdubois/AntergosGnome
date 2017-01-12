@@ -141,10 +141,7 @@ More info can be found here : https://github.com/erikdubois/Surfn
 This is an exercise in writing conky configurations in lua syntax.
 
 
-![Screenshots](http://i.imgur.com/Rk8rd2a.jpg)
-
-![Screenshots](http://i.imgur.com/SptQ6cW.jpg)
-
+In above screenshots you can see the conky's at work.
 
 
 More information can be found here : http://erikdubois.be/category/linux/aureola/
