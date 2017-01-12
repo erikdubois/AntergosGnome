@@ -4,7 +4,9 @@ Let us first take a screenshot of the initial look of this distro.
 
 ![Screenshots](http://i.imgur.com/vyZO7pC.png)
 
+
 ##Update your system.
+
 
 **Pamac** will alert you or use commands like
 	
@@ -15,6 +17,7 @@ Let us first take a screenshot of the initial look of this distro.
 
 
 ##Software installation
+
 
 We start the installation scripts of all the needed software via the terminal.
  
@@ -43,13 +46,16 @@ Some of the applications that will be installed are
 
 There are other scripts for more applications. If needed, you can install them individually.
 
+
 ##Change the theme
+
 
 Sometimes you can change the present theme to its dark equivalent. This is the case in Gnome. 
 In the gnome-tweak-tool you can change this.
 
 
-##Install original Arc Theme
+##Install Arc Theme
+
 
 Ofcourse you can install new themes. I like the **Arc** theme which I will use in the later screenshots. 
 
@@ -57,7 +63,9 @@ I install the **original blue** Arc theme but also my personally created Arc the
 
 	install-gtk-arc-theme-vx.sh
 
+
 ##Install your individual Arc Theme
+
 
 You can change the blue accent colour from the Arc theme with these scripts to **any colour** you like : 
 
@@ -67,6 +75,7 @@ More info about Arc Colora : https://github.com/erikdubois/Arc-Theme-Colora
 
 
 ##Download the Sardi icons
+
 
 You can install the sardi icons via these scripts
 
@@ -91,7 +100,6 @@ Sardi is **meant to be changed by the users**. You can use scripts to change the
 
 Start your reading about Sardi here : http://erikdubois.be/overview-sardi-icons-version-9-sardi-extra-icons/
 
-
 Follow the collection on google+ : https://plus.google.com/u/0/collection/YFP-LB
 
 The most recent pictures can be found there.
@@ -101,6 +109,7 @@ More documentation on http://erikdubois.be/category/sardi-icons/
 
 ##Download the Sardi-extra icons
 
+
 There is also a collection of **Sardi Extra** icons at 
 
 https://github.com/erikdubois/Sardi-Extra
@@ -108,8 +117,6 @@ https://github.com/erikdubois/Sardi-Extra
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
 ![Screenshots](http://i.imgur.com/ADYgJom.jpg)
-
-
 
 More documentation on http://erikdubois.be/category/sardi-icons/
 
@@ -147,9 +154,8 @@ In above screenshots you can see the conky's at work.
 More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-
-
 ##Change the cursor
+
 
 I like the breeze cursors.
 
@@ -160,6 +166,7 @@ I like the breeze cursors.
 
 	
 ##Install the plank and download 100+ themes
+
 
 Plank is installed through this script
 
@@ -183,8 +190,6 @@ Sardi icons and all plank themes
 
 
 Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
-
-
 
 
 ##Change from bash to zsh in your terminal
