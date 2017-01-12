@@ -1,6 +1,6 @@
 # Antergos Gnome 01.2017
 
-Let us first take a screenshot of the initial look of Antergos Gnome
+Let us first take a screenshot of the initial look of this distro.
 
 ![Screenshots](http://i.imgur.com/vyZO7pC.png)
 
