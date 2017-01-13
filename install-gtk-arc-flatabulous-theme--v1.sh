@@ -12,22 +12,23 @@
 ##################################################################################################################
 
 
-        # S P E E D T E S T #
 
-# terminal speedtest
-wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py -O /tmp/speedtest.py
-chmod +x /tmp/speedtest.py
-python /tmp/speedtest.py --share
-# https://github.com/sivel/speedtest-cli
+#https://github.com/andreisergiu98/arc-flatabulous-theme
 
-sleep 10
+rm -rf /tmp/arc-flatabulous-theme
 
+#sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+sudo eopkg it -y autoconf automake pkg-config libgtk-3-devel m4 make
 
+git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
+cd /tmp/arc-flatabulous-theme
+./autogen.sh --prefix=/usr
+sudo make install
+#sudo make uninstall
 
-##################################################################################################################
+# cleanup
+rm -rf /tmp/arc-flatabulous-theme
 
 echo "################################################################"
-echo "###################    Speedtest          ######################"
+echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-
