@@ -19,10 +19,10 @@ Let us first take a screenshot of the initial look of this distro.
 
 # What can you achieve?
 
-![Screenshots](http://i.imgur.com/jx9aceG.jpg)
+![Screenshots](http://i.imgur.com/VgLhZTz.png)
 
 
-![Screenshots](http://i.imgur.com/orpjYMt.jpg)
+![Screenshots](http://i.imgur.com/GS4gwHn.jpg)
 
 
 
