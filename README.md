@@ -196,7 +196,7 @@ use the git clone command
 # Youtube Resources Antergos Gnome
 
 
-https://www.youtube.com/playlist?list=PLlloYVGq5pS7Tb7PZ5eVkEWGj9UimJ5x6
+https://www.youtube.com/playlist?list=PLlloYVGq5pS4StYl1Vf1zrbGWCUzoadi-
 
 
 # Youtube Resources all Antergos
