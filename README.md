@@ -1,29 +1,35 @@
-# Antergos Gnome 01.2017
+# AntergosGnome
+
+##How to install Antergos Gnome and customize it
+
+All information about the installation and customization of Antergos Gnome can be found in this **article** and is explained in **several youtube tutorials** : 
+
+http://erikdubois.be/how-to-install-gnome-on-antergos-and-customize-it/
+
+Official antergos downloads can be found at 
+http://antergos.com/try-it/
+
+
+# Initial look
 
 Let us first take a screenshot of the initial look of this distro.
 
 ![Screenshots](http://i.imgur.com/vyZO7pC.png)
 
-##Update your system.
 
-**Pamac** will alert you or use commands like
-	
-	sudo pacman -Syu
-	packer -Syu
-	pacaur -Syu
-	yaourt -Syu
+# What can you achieve?
+
+![Screenshots](http://i.imgur.com/jx9aceG.jpg)
+
+
+![Screenshots](http://i.imgur.com/orpjYMt.jpg)
+
 
 
 ##Software installation
 
 We start the installation scripts of all the needed software via the terminal.
  
-	0-install-aur-helper-vx.sh
-	1-install-core-software-vx.sh
-   	2-install-extra-software-vx.sh
-	3-install-themes-icons-cursors-conky-plank-vx.sh
-	4-install-software-distro-specific-vx.sh
-	5-install-samba-vx.sh
 
 Do not forget to type "./" in front of the name.
 
@@ -43,10 +49,7 @@ Some of the applications that will be installed are
 
 There are other scripts for more applications. If needed, you can install them individually.
 
-##Change the theme
 
-Sometimes you can change the present theme to its dark equivalent. This is the case in Gnome. 
-In the gnome-tweak-tool you can change this.
 
 ##Install Arc Theme
 
@@ -55,7 +58,7 @@ Ofcourse you can install new themes. I like the **Arc** theme which I will use i
 
 I install the **original blue** Arc theme but also my personally created Arc themes (see Arc Colora folder).
 
-	install-gtk-arc-theme-vx.sh
+
 
 ##Install your individual Arc Theme
 
@@ -66,11 +69,11 @@ Read here for more info on Arc Based Themes : http://erikdubois.be/category/them
 More info about Arc Colora : https://github.com/erikdubois/Arc-Theme-Colora
 
 
+
 ##Download the Sardi icons
 
-You can install the sardi icons via these scripts
+You can install the sardi icons via the scripts
 
-	icons-sardi-vx.sh
 
 This icon theme can be downloaded at sourceforge.
 
@@ -82,8 +85,6 @@ You can also use
 	- pacaur -S sardi-icons 
 	- yaourt -S sardi-icons 
 
-
-![Screenshots](http://i.imgur.com/5gXeRId.jpg)
 
 
 Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
@@ -106,7 +107,6 @@ https://github.com/erikdubois/Sardi-Extra
 
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
-![Screenshots](http://i.imgur.com/ADYgJom.jpg)
 
 More documentation on http://erikdubois.be/category/sardi-icons/
 
@@ -114,9 +114,8 @@ More documentation on http://erikdubois.be/category/sardi-icons/
 ##Download the Surfn icons
 
 
-For ease of installation I use the script
+For ease of installation I use the script.
 
-	- icons-surfn-vx.sh
 
 You can also use
 
@@ -124,8 +123,6 @@ You can also use
 	- pacaur -S surfn-icons 
 	- yaourt -S surfn-icons 
 
-
-![Screenshots](http://i.imgur.com/UWX8NYi.jpg)
 
 
 
@@ -150,8 +147,6 @@ More information can be found here : http://erikdubois.be/category/linux/aureola
 I like the breeze cursors.
 
 
-	install-breeze-cursor-theme-v1
-
 ![Screenshots](http://i.imgur.com/wHp0I9s.png)
 
 	
@@ -160,9 +155,8 @@ I like the breeze cursors.
 
 Plank is installed via the main scripts.
 
-If you want to install 100+ plank themes, you need to run this script : 
+If you want to install 100+ plank themes, you need to run the script.
 
-	plank-themes-vx.sh
 
 Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and choose preferences
 and put in on top. 
@@ -182,10 +176,7 @@ Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/ca
 
 ##Change from bash to zsh in your terminal
 
-I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via this script.
-
-
-	./install-zsh-vx.sh
+I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via the script.
 
 
 ![Screenshots](http://i.imgur.com/kehYX70.jpg)
@@ -198,19 +189,20 @@ Go inside the folder and right-click <b>in a blank space</b> to go to the termin
 
 or 
 
-copy/paste this command in your terminal.
-
-	git clone https://github.com/erikdubois/AntergosGnome
+use the git clone command
 
 
 
+# Youtube Resources Antergos Gnome
 
 
-# Youtube Resources
+https://www.youtube.com/playlist?list=PLlloYVGq5pS7Tb7PZ5eVkEWGj9UimJ5x6
+
+
+# Youtube Resources all Antergos
 
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS5DGx2EHIZxOGVTf9JikalO
-
 
 
 # Resources
@@ -283,4 +275,3 @@ Share the knowledge.
 
 I share my knowledge at http://erikdubois.be
 ------------------------------------------------
-
