@@ -13,7 +13,7 @@
 ##################################################################################################################
 
 
-dconf load /org/cinnamon/desktop/keybindings/  <  all-keybindings.dconf
+dconf load /org/gnome/settings-daemon/plugins/ < all-keybindings.dconf
 
 
 echo "################################################################"

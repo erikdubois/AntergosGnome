@@ -13,7 +13,7 @@
 ##################################################################################################################
 
 
-dconf dump /org/cinnamon/desktop/keybindings/ > all-keybindings.dconf
+dconf dump /org/gnome/settings-daemon/plugins/ > all-keybindings.dconf
 
 
 echo "################################################################"
